@@ -7,7 +7,7 @@ public:
                 ans = ans*2;
             }else if(ans == n){
                 return true;
-            }else if(ans>n){
+            }else{
                 return false;
             }
         }
